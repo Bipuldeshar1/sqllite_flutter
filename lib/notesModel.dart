@@ -5,7 +5,7 @@ class NotesModel {
   final String? description;
 
   NotesModel({
-    required this.id,
+    this.id,
     required this.title,
     required this.age,
     required this.description,
@@ -21,7 +21,7 @@ class NotesModel {
       'id': id,
       'age': age,
       'title': title,
-      'descripiton': description,
+      'description': description,
     };
   }
 }
